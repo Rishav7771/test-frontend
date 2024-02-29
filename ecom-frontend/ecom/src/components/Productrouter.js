@@ -11,6 +11,7 @@ const Productrouter = () => (
         <BrowserRouter>
         <Routes>
           <Route path="/products" element={<ProductCatalog/>}/>
+          <Route path="/" element={<ProductCatalog/>}/>
           <Route path="/product/:id" element={<ProductDetails/>}/>
         </Routes>
         </BrowserRouter>
