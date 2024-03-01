@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   const navigate = useNavigate();
 
   const goToProductDetail = () => {
-    navigate(`/product/${product.id}`);
+    navigate(`/products/${product.id}`);
   };
   const formattedPrice = product.price.toLocaleString('en-IN', {
     style: 'currency',

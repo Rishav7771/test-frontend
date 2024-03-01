@@ -8,13 +8,10 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 const Productrouter = () => (
   <div>
-        <BrowserRouter>
         <Routes>
-          <Route path="/products" element={<ProductCatalog/>}/>
           <Route path="/" element={<ProductCatalog/>}/>
-          <Route path="/product/:id" element={<ProductDetails/>}/>
+          <Route path="/:id" element={<ProductDetails/>}/>
         </Routes>
-        </BrowserRouter>
   </div>
 );
 export default Productrouter;

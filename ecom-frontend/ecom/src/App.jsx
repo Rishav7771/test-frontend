@@ -10,4 +10,4 @@ const App = () => (
         <Productrouter/>
   </div>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById("app"));

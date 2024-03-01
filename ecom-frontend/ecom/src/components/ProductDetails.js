@@ -39,7 +39,6 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <h1>Product Detail Page</h1>
       {singleproduct && singleproduct.image && 
       <Container>
         <Row>

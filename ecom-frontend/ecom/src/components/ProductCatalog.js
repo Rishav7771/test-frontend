@@ -52,7 +52,6 @@ const ProductCatalog = () => {
   } 
   return (
     <div className="container" style={{height:"100vh"}}>
-      <h1 style={{height:"100px" }}>Product Catalog</h1>
       {loading ? (
         <p className="loading">Loading...</p>
       ) : (
