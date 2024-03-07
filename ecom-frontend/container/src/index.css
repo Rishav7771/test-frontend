@@ -1,6 +1,8 @@
 *{
   margin: 0px; padding: 0px; box-sizing: border-box;
 }
-.conatiner-fluid{
-  padding: 0px 45px;
+
+body{
+  overflow-x: hidden;
 }
+

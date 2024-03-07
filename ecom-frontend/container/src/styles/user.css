@@ -1,0 +1,13 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #DBD8E3;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, #DBD8E3, #DBD8E3);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, #DBD8E3, #DBD8E3)
+    }
+    .button {
+        margin: 0 0 0 310px;/* Top, right, bottom, left */
+      }
